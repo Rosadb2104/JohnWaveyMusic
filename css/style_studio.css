@@ -1,0 +1,84 @@
+a{
+    text-decoration: none;
+    color: rgb(4, 0, 27);
+}
+
+.main-header{
+    font-size: 30px;
+    color: beige;
+    font-family: 'Comforter', cursive;
+    padding: 3% 0% 0% 0%;
+    margin: 0%;
+    text-align: center;
+    background-color: rgb(10, 0, 70);
+    opacity: 0.7;
+}
+
+.nav{
+    font-size: 16px;
+    font-weight: 1000;
+    font-family: 'Unica One', cursive;
+    color: rgb(4, 0, 27);
+    padding: 1% 0%;
+    background-color: beige;
+    opacity: 0.7;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav ul{
+    list-style-type: none;
+}
+
+.body{
+    background-image: url('../afbeeldingen/piano\ crop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: beige;
+    letter-spacing: 0.1em;
+
+    font-size: 100%;
+    font-weight: 10;
+    
+    line-height: normal;
+    margin: 1%;
+    text-align: inherit;
+}
+
+h2{
+    font-family: 'Unica One', cursive;
+    font-size: 40px;
+}
+
+h3{
+    font-family: 'Unica One', cursive;
+    font-size: 24px;
+}
+
+h4{
+    font-family: 'Unica One', cursive;
+    font-size: 18px;
+}
+
+.body p{
+    font-family: 'Manrope', sans-serif;
+}
+
+.studio-links a{
+    color: beige;
+    text-decoration: underline;
+}
+footer {
+    color: beige;
+    }
+
+@media screen and (min-width: 320px) {
+    body {
+    font-size: 90%;
+    line-height: 90%;
+    text-align: center;
+    }
+}
